@@ -26,6 +26,13 @@ YCbCr renk uzayı, dünya çapında sayısal video standardı oluşturma çabala
 Cb ve Cr ise de 16-240 arasında tanımlanmaktadır. (kaynak: http://matlabgoruntuisleme.blogspot.com/2012/09/rgbhsvycbcr-renk-uzaylar-md2.html)<br>
 <img src="https://user-images.githubusercontent.com/25556230/103140140-1ef0e380-46f4-11eb-91ce-fff74209d7fc.jpg" width=500 height=300>
 
+* 1: 1 resmi siyah beyaz hale getirir. (Kullanımı: image1 = Image.new("1", (50,50))<br>
+![Ekran Resmi 2020-12-26 01 15 30](https://user-images.githubusercontent.com/25556230/103142656-f4188680-4717-11eb-9de7-110cf31f4d2a.png)
+* L: L görüntüyü gri formatına çevirir. Örnek: <br>
+![Ekran Resmi 2020-12-26 01 15 49](https://user-images.githubusercontent.com/25556230/103142658-f7137700-4717-11eb-93c3-2d02f9d12bc3.png)
+
+
+
 ### 2- boyut
 2. parametre olan boyut, resmimizin kaç pixel genişliğinde ve yüksekliğinde olması gerektiğini söyler. 
 Kullanımı şöyledir: Image.new('RGB', (500, 300), 'red')
