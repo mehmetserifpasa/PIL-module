@@ -6,12 +6,14 @@ Bir görüntünün modu, görüntüdeki bir pikselin türünü ve derinliğini t
 * RGB: RGB red(kırmızı), Green(yeşil), Blue(mavi) Renklerin kısaltılması ile oluşturulmuş bir kelimedir. RGB televizyon-bilgisayar gibi elektronik 
 ortamlar da kullanılmaktadır. Bu üç rengin birleşimi ile birçok renk ortaya çıkar.  RGB sayısal gösterimi şu şekildedir: (0-255, 0-255, 0-255) 
 Bu üç bölümden her biri 0 ile 255 sayıları arasında bir değer alabilir. Yani eğer şu şekilde yaparsak: (0, 0, 0) siyah renk oluşacaktır. 
+Kullanım: PIL.Image.new("RGB", boyut, renk)
 <img src="https://user-images.githubusercontent.com/25556230/103139483-b141b900-46ed-11eb-9955-9f60e0bfa27d.jpg" width="600" height="300">
 
 
 * RGBA: Görüldüğü gibi RGB den farkı sounda ki A yani alfa kelimesidir. Sondaki alfa görüntünün saydamlığını (opak) ayarlamaktadır. RGBA'nın sayısal gösterimi ise
 şöyledir: (255, 0, 0, 0.3)
 (255, 0, 0) ile rengimizi kırmızı yaptık ve 0.3 ile saydamlığını ayarladık. 
+Kullanım: PIL.Image.new("RGBA", boyut, renk)
 <img src="https://user-images.githubusercontent.com/25556230/103139641-472a1380-46ef-11eb-825a-6b0529a03279.png">
 
 * CMYK: mürekkep ve boya kullanan baskı makinelerine ulaşması gereken tasarımların formatıdır. 
