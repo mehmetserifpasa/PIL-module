@@ -38,7 +38,6 @@ olarak siyah rengi verir. Aşşağıdaki resimlerde bütün örnekler verilmişt
 Sondaki renk bütün kullanımlara uygundur. 
 - Image.new('RGB', (500,100), "hsl( 0, 67%, 46% )")
 - Image.new('RGB', (500,100), "#B13A3A")
-- 
 ![rb](https://user-images.githubusercontent.com/25556230/103140348-99bafe00-46f6-11eb-895a-529ecc8b2eb0.png)
 ![rd](https://user-images.githubusercontent.com/25556230/103140349-9b84c180-46f6-11eb-8fa9-b0df4ddd1552.png)
 ![Ekran Resmi 2020-12-25 21 19 20](https://user-images.githubusercontent.com/25556230/103140377-e0105d00-46f6-11eb-9661-2503dccbe083.png)
