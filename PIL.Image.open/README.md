@@ -1,2 +1,2 @@
-# PIL.Image.open(dosyaAdı, mod)
-
+# Image.open(dosyaAdı, mod)
+Verilen görüntü dosyasını açar ve tanımlar.
