@@ -12,3 +12,9 @@ Verilen görüntü dosyasını açar ve tanımlar.
 Kaynak koduna baktığımız zaman fark olmadığını görürüz. İf mode r'ye eşit değilse hata mesajı yolluyor.
 
 <img src="https://user-images.githubusercontent.com/25556230/103140844-b8bc8e80-46fc-11eb-9ce4-b960d6a7a55e.png" width=500 height=100>
+
+### Hata mesajları ve anlamları
+
+* FileNotFoundError – Dosya bulunamazsa bu hatayı döndürür.
+* PIL.UnidentifiedImageError – Görüntü açılamıyorsa ve tanımlanamıyorsa bu hatayı döndürür.
+* ValueError – Mod "r" değilse veya dosyaAdı için bir StringIO örneği kullanılıyorsa bu hatayı döndürür.
